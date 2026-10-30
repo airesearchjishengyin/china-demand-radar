@@ -1,0 +1,6 @@
+interface:
+  display_name: "中国大陆需求雷达"
+  short_description: "按用户的单次请求调研中国大陆真实需求、优化想法并检查商业可行性"
+  default_prompt: "使用 $china-demand-radar 调研我指定的人群或想法，保存可核验证据，给出反证和一个下一步验证动作。"
+policy:
+  allow_implicit_invocation: true
